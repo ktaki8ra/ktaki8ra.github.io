@@ -32,3 +32,19 @@ section.photo-container div.photo-box img{
 span.strike-out {
     text-decoration: line-through;
 }
+
+section.container div.email p {
+    margin: 0px;
+}
+
+section.container div.email span.no-copy {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* default */
+}
+
+section.container div.email aside p {
+    margin: 0px;
+    font-size: 75%;
+}

@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    background-color: #380538;
+}
+
+body {
+    padding: 15px;
+    margin: 0px;
+    background: linear-gradient(#121212, 70%, #380538);
+    color: #ddd;
+    font-family: Cardo, sans-serif;
+    font-size: 20px;
+    height: 100%;
+}
+
+#content {
+    width: 780px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Strait', sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    font-family: 'Strait', sans-serif;
+}
+
+a {
+    color: #36c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    text-align: center;
+}
+

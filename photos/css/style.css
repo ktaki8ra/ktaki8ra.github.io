@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    background-color: #380538;
+}
+
+body {
+    padding: 15px;
+    margin: 0px;
+    background: linear-gradient(#121212, 70%, #380538);
+    color: #ddd;
+    font-family: Cardo, sans-serif;
+    font-size: 20px;
+    height: 100%;
+}
+
+.back-to-top {
+    padding: 15px;
+    text-align: left;
+}
+.back-to-top a {
+    color: grey;
+}
+
+#photo-content {
+    max-width: 780px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Strait', sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+.masonry {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.masonry img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: block;
+    border: 1px solid #444;
+    break-inside: avoid;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    text-align: center;
+}
+
